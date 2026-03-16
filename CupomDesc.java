@@ -16,8 +16,9 @@ public class CupomDesc {
 
         double valorDesconto = valorOriginal * 0.15;
         double valorFinal = valorOriginal - valorDesconto;
- 
+  
 
+                                                  //porcentagem e ponto com algum número após ele é para casas decimais
         System.out.printf("Desconto aplicado (15%%): R$ %.2f%n", valorDesconto);
         System.out.printf("Total a pagar: R$ %.2f%n", valorFinal);
 
